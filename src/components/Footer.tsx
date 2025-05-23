@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <Phone className="w-5 h-5" />
-                  <span>+91 9876543210</span>
+                  <span>+91 7092675688</span>
                 </div>
               </div>
             </div>
@@ -25,7 +25,9 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4 text-white">Connect</h3>
               <div className="flex gap-4">
-                <Github className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                <a href="https://github.com/anbu5420/Anbukani" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                </a>
                 <Linkedin className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
               </div>
             </div>

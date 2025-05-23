@@ -6,16 +6,16 @@ import { Lightbulb, Cpu, Zap, Settings } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Smart Home Automation PCB",
-      description: "Designed and developed a custom PCB for home automation system with IoT connectivity, featuring multiple relay controls, sensor interfaces, and Wi-Fi communication.",
-      technologies: ["KiCad", "ESP32", "IoT", "PCB Design"],
+      title: "IoT-Based Home Automation System",
+      description: "Designed and developed a comprehensive home automation system utilizing ESP32 Wi-Fi module for wireless connectivity. The system enables remote control of household appliances, lighting, and security systems through a mobile application.",
+      technologies: ["ESP32", "IoT", "PCB Design", "Mobile App"],
       icon: <Settings className="w-6 h-6" />,
       status: "Completed"
     },
     {
-      title: "Arduino-based Traffic Light Controller",
-      description: "Created an intelligent traffic management system using Arduino microcontroller with custom PCB design, including timing controls and sensor integration.",
-      technologies: ["Arduino", "PCB Design", "C++", "Eagle CAD"],
+      title: "Water Quality Monitoring System",
+      description: "Created an IoT-based water quality monitoring system that automatically measures and monitors various parameters such as pH, turbidity, temperature, and dissolved oxygen. The system provides real-time data analysis and alerts.",
+      technologies: ["IoT", "Sensors", "Data Analytics", "Arduino"],
       icon: <Lightbulb className="w-6 h-6" />,
       status: "Completed"
     },

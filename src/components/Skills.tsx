@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Wrench, Code, Palette, Briefcase } from "lucide-react";
@@ -10,9 +9,9 @@ const Skills = () => {
       icon: <Palette className="w-6 h-6" />,
       skills: [
         { name: "KiCad", level: 85 },
-        { name: "Eagle CAD", level: 75 },
+        { name: "Eagle CAD", level: 76 },
         { name: "Altium Designer", level: 60 },
-        { name: "Circuit Simulation", level: 80 }
+        { name: "Circuit Simulation", level: 85 }
       ]
     },
     {
@@ -21,7 +20,7 @@ const Skills = () => {
       skills: [
         { name: "Arduino Programming", level: 90 },
         { name: "C/C++", level: 75 },
-        { name: "Embedded C", level: 70 },
+        { name: "Java", level: 84 },
         { name: "Python", level: 65 }
       ]
     },

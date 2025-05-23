@@ -6,7 +6,6 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Certificates from "@/components/Certificates";
 import Reflection from "@/components/Reflection";
-import FutureGoals from "@/components/FutureGoals";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
         <Skills />
         <Certificates />
         <Reflection />
-        <FutureGoals />
       </main>
       <Footer />
     </div>

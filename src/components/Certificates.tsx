@@ -6,36 +6,36 @@ import { Award, Calendar, ExternalLink } from "lucide-react";
 const Certificates = () => {
   const certificates = [
     {
-      title: "PCB Design Fundamentals",
-      issuer: "Electronics Institute",
-      date: "March 2023",
-      description: "Comprehensive course covering PCB design principles, layout techniques, and manufacturing processes.",
-      skills: ["KiCad", "PCB Layout", "Design Rules"],
+      title: "AI Associate",
+      issuer: "Salesforce",
+      date: "April 2023",
+      description: "Certification in artificial intelligence fundamentals and applications in business contexts.",
+      skills: ["AI", "Machine Learning", "Business Applications"],
       status: "Verified"
     },
     {
-      title: "Arduino Programming & Projects",
-      issuer: "Tech Academy",
+      title: "AI Specialist",
+      issuer: "Salesforce",
+      date: "June 2023",
+      description: "Advanced certification in specialized AI techniques and implementations.",
+      skills: ["AI", "Data Analysis", "Predictive Models"],
+      status: "Verified"
+    },
+    {
+      title: "Java",
+      issuer: "Prep Insta",
       date: "January 2023",
-      description: "Hands-on certification in Arduino programming, sensor integration, and project development.",
-      skills: ["Arduino", "C++", "Sensors", "IoT"],
+      description: "Comprehensive certification in Java programming language and application development.",
+      skills: ["Java", "OOP", "App Development"],
       status: "Verified"
     },
     {
-      title: "Electronics Circuit Analysis",
-      issuer: "Engineering Foundation",
-      date: "November 2022",
-      description: "Advanced course in analog and digital circuit analysis, simulation, and troubleshooting.",
-      skills: ["Circuit Analysis", "SPICE Simulation", "Troubleshooting"],
+      title: "AI Foundation Associate",
+      issuer: "Oracle",
+      date: "August 2023",
+      description: "Foundational certification in Oracle's AI technologies and frameworks.",
+      skills: ["Oracle AI", "Data Systems", "Cloud Integration"],
       status: "Verified"
-    },
-    {
-      title: "Embedded Systems Basics",
-      issuer: "Microcontroller Institute",
-      date: "September 2022",
-      description: "Introduction to embedded systems programming and microcontroller applications.",
-      skills: ["Embedded C", "Microcontrollers", "Real-time Systems"],
-      status: "In Progress"
     }
   ];
 
