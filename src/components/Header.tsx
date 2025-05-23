@@ -1,19 +1,12 @@
-
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
-
 const Header = () => {
-  return (
-    <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12">
+  return <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-12">
       <div className="container mx-auto px-4">
         <Card className="bg-white/10 backdrop-blur-md border-white/20 p-8">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative">
-              <img
-                src="/lovable-uploads/21d18483-a242-455f-ad8d-6c5fadac95e5.png"
-                alt="Anbukani T"
-                className="w-48 h-48 rounded-full object-cover border-4 border-white/30 shadow-2xl"
-              />
+              <img src="/lovable-uploads/21d18483-a242-455f-ad8d-6c5fadac95e5.png" alt="Anbukani T" className="w-48 h-48 rounded-full object-cover border-4 border-white/30 shadow-2xl" />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-transparent"></div>
             </div>
             
@@ -32,11 +25,11 @@ const Header = () => {
               <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>anbukani.t@email.com</span>
+                  <span>anbukani510@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>+91 9876543210</span>
+                  <span>+91 7092675688</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
@@ -52,8 +45,6 @@ const Header = () => {
           </div>
         </Card>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
