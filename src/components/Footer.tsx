@@ -1,10 +1,7 @@
-
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, Github, Linkedin, Heart } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white py-12 mt-16">
+  return <footer className="bg-gray-900 text-white py-12 mt-16">
       <div className="container mx-auto px-4">
         <Card className="bg-gray-800/50 border-gray-700 p-8">
           <div className="grid md:grid-cols-3 gap-8">
@@ -13,7 +10,7 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-gray-300">
                   <Mail className="w-5 h-5" />
-                  <span>anbukani.t@email.com</span>
+                  <span>anbukani510@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <Phone className="w-5 h-5" />
@@ -50,8 +47,6 @@ const Footer = () => {
           </div>
         </Card>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
