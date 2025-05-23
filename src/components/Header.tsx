@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 const Header = () => {
@@ -38,8 +39,12 @@ const Header = () => {
               </div>
               
               <div className="flex justify-center md:justify-start gap-4 mt-4">
-                <Github className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
-                <Linkedin className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+                <a href="https://github.com/anbu5420/Anbukani" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+                </a>
+                <a href="https://www.linkedin.com/in/anbu-kani-snsinstitutions" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+                </a>
               </div>
             </div>
           </div>

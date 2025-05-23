@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, Github, Linkedin, Heart } from "lucide-react";
 const Footer = () => {
@@ -25,7 +26,9 @@ const Footer = () => {
                 <a href="https://github.com/anbu5420/Anbukani" target="_blank" rel="noopener noreferrer">
                   <Github className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
                 </a>
-                <Linkedin className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                <a href="https://www.linkedin.com/in/anbu-kani-snsinstitutions" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                </a>
               </div>
             </div>
             
